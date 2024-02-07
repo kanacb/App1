@@ -17,7 +17,7 @@ public class PrimeNumbers {
         if (num <= -1)
             return false;
         for (int i = 2; i <= Math.sqrt(num); i++) {
-            System.out.print(i);
+            // System.out.print(i);
             if (num % i == 0)
                 return false;
         }
@@ -26,7 +26,7 @@ public class PrimeNumbers {
 
     static void prime(int start, int end) {
         for (int i = start; i <= end; i++) {
-            System.out.println(i);
+            // System.out.println(i);
             if (isPrime(i))
                 System.out.print(i + " ");
         }
