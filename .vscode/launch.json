@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.Factorial",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "FlowStatement",
+            "request": "launch",
+            "mainClass": "FlowStatement",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question1.Q1",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question2.Q2",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "ElvisOperator",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.ElvisOperator",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.Exercise3",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "Numerics",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.Numerics",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "exec1",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.exec1",
+            "projectName": "App1_9cca1e5f"
+        },
+        {
+            "type": "java",
+            "name": "exec2",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.exec2",
+            "projectName": "App1_9cca1e5f"
+        }
+    ]
+}
