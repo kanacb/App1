@@ -7,6 +7,7 @@ public class ArrayFunction {
         printArrayValues(a);
         System.out.println("k = " + k);
         someMethod(k, a);
+        someMethod(k, a, "String added");
         printArrayValues(a);
         System.out.println("k = " + k);
     }
@@ -19,12 +20,16 @@ public class ArrayFunction {
         printArrayValues(b);
         System.out.println("k = " + k);
         System.out.println("---Going out of the method.");
+    }    
+    
+    public static void someMethod(int k, int[] b , String s) {
+        System.out.println("-------------In the method.");
+        System.out.println("s = " + s);
     }
 
     public static void printArrayValues(int[] a) {
         for (int i = 0; i < a.length; i++)
-            System.out.print(a[i] + ",");
-
+            System.out.print(a[i] + ", ");
         System.out.println();
     }
 }

@@ -16,6 +16,8 @@ public class GenRandomArray {
         int[] a = new int[length];
         for (int i = 0; i < length; i++) {
             a[i] = (int) Math.round(Math.random() * (max - min) + min);
+            // 0 1 => e.g. 1 * 89 + 10
+            // Random() pseudo random
         }
         return a;
     }
