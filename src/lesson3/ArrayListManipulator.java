@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListManipulator {
-    private ArrayList<Integer> arrayList;
+    static private ArrayList<Integer> arrayList;
     // { 90, 100, 150 }
     // [ 0, 1 , 2 ]
 
