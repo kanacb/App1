@@ -10,6 +10,10 @@ public class Main {
             System.out.println(number + " is even.");
         else
             System.out.println(number + " is odd.");
+
+            NonStaticMathUtils nonStaticMathUtils = new NonStaticMathUtils();
+            nonStaticMathUtils.add(number, number);
+
     }
 
 }
