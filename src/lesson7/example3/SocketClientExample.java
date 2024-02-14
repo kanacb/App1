@@ -15,7 +15,6 @@ import java.net.UnknownHostException;
 public class SocketClientExample {
     
     public static void main(String[] args)  throws UnknownHostException, IOException, ClassNotFoundException, InterruptedException{
-        String serverAddress = "127.0.0.1";
         int port = 8080;
 
         InetAddress host = InetAddress.getLocalHost();
@@ -29,11 +28,11 @@ public class SocketClientExample {
             oos = new ObjectOutputStream(socket.getOutputStream());
             System.out.println("Sending request to Socket Server");
             if(i==4)oos.writeObject("exit");
-            else oos.writeObject(""+i);
+            else oos.writeObject("writing "+i);
             //read the server response message
             ois = new ObjectInputStream(socket.getInputStream());
             String message = (String) ois.readObject();
-            System.out.println("Message: " + message);
+            System.out.println("Message response: " + message);
             //close resources
             ois.close();
             oos.close();
