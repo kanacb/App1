@@ -8,8 +8,6 @@ import java.nio.file.Paths;
 
 public class ReadFile extends ReadFileHandler {
 
-    private String filename;
-
     public ReadFile(String fileName) {
         super(fileName);
     }
