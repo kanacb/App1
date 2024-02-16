@@ -2,7 +2,6 @@ package lesson9.example;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.*;
 
 public class ExpenseTrackerApp extends JFrame {
@@ -49,7 +48,6 @@ public class ExpenseTrackerApp extends JFrame {
 
     @SuppressWarnings("unchecked")
     private class AddButtonListener implements ActionListener {
-
         @Override
         public void actionPerformed(ActionEvent e) {
             String expense = expenseField.getText().trim();
@@ -61,14 +59,12 @@ public class ExpenseTrackerApp extends JFrame {
     }
 
     private class DeleteButtonLister implements ActionListener {
-
         @Override
         public void actionPerformed(ActionEvent e) {
             int selectIndex = expensesList.getSelectedIndex();
             if (selectIndex != -1) {
                 listModel.remove(selectIndex);
             }
-
         }
     }
 
@@ -78,5 +74,4 @@ public class ExpenseTrackerApp extends JFrame {
             app.setVisible(true);
         });
     }
-
 }
