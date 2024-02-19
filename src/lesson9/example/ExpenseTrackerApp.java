@@ -20,7 +20,7 @@ public class ExpenseTrackerApp extends JFrame {
 
         // textField
         JPanel inputJPanel = new JPanel();
-        JLabel expensLabel = new JLabel("Expense: ");
+        JLabel expensLabel = new JLabel("^");
         expenseField = new JTextField(20);
 
         // button
